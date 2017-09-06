@@ -1,9 +1,4 @@
 # Created by .ignore support plugin (hsz.mobi)
 /anzisha.iml
 /.idea/
-.gitignore
-.idea/
-anzisha.iml
-pom.xml
-src/
 target/
