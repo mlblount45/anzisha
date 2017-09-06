@@ -2,8 +2,11 @@
 
 
 ## Module Structure
-The `name` field will be the alias used to start the module and will be used to add the module as a 
+* `name`: field will be the alias used to start the module and will be used to add the module as a 
 dependency to other modules.
+* `scripts`: one or more command line scripts needed to start this module
+* `dependencies` zero or more modules that need to be started and running before this module runs
+
 ###Json Representation
 ```
 {
@@ -17,5 +20,6 @@ dependency to other modules.
    ]
 }
 ```
+
 ###YAML Representation 
 Not yet supported 
