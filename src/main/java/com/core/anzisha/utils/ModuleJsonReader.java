@@ -23,11 +23,9 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 public class ModuleJsonReader {
 
   private static final Logger log = LoggerFactory.getLogger(ModuleJsonReader.class);
-
   private ObjectMapper om = new ObjectMapper();
 
   public List<Module> loadAllModules() throws IOException, URISyntaxException {
-
     List<Module> modules = new ArrayList();
     Files.walk(Paths.get(ClassLoader.getSystemResource("modules").toURI()))
         .filter(Files::isRegularFile)
