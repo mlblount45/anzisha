@@ -7,7 +7,7 @@ dependency to other modules.
 * `scripts`: one or more command line scripts needed to start this module
 * `dependencies` zero or more modules that need to be started and running before this module runs
 
-###Json Representation
+### Json Representation
 ```
 {
    "name":"moduleC",
