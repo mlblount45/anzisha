@@ -1,0 +1,10 @@
+{
+  "name":"moduleD",
+  "scripts":[
+    "command to run"
+  ],
+  "dependencies":[
+    "moduleA",
+    "moduleB"
+  ]
+}
